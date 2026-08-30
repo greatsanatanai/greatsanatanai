@@ -18,7 +18,7 @@ Visit the live demo: https://sanatan-ai.vercel.app/ (or your hosting URL)
 ---
 
 ## Features
-- Bilingual conversational UI (add supported languages)
+- Bilingual conversational UI (english and hindi)
 - Dharma-centered knowledge and guidance
 - Built with Next.js for a fast, modern web experience
 - Powered by Google Gemini (LLM) for natural, helpful responses
@@ -27,12 +27,12 @@ Visit the live demo: https://sanatan-ai.vercel.app/ (or your hosting URL)
 ---
 
 ## Tech stack
-- Next.js (React)
+- Next.js (React + Typescript + Tailwind)
 - Google Gemini (LLM)
 - Vercel (recommended for deployment)
-- TailwindCSS
 - Resend
 - Lordicon
+- Tavily
 
 ---
 
