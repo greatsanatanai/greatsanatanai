@@ -2,12 +2,13 @@
   <img src="https://sanatan-ai.vercel.app/logo.png" width="160" alt="Sanatan AI logo" />
 </p>
 
-# Sanatan AI
+<h1 align='center'>Sanatan AI</h1>
 
-**The Soul of Intelligence**  
-A bilingual, dharma-focused conversational AI built with Next.js and Google Gemini.
-
+<h2 align='center'> The Soul of Intelligence </h2>
+<p align="center">A bilingual, dharma-focused conversational AI built with Next.js and Google Gemini.
+<br />
 Sanatan AI helps you explore dharma, self-knowledge, and personal growth through intelligent, context-aware conversations.
+</p>
 
 ---
 
@@ -29,7 +30,9 @@ Visit the live demo: https://sanatan-ai.vercel.app/ (or your hosting URL)
 - Next.js (React)
 - Google Gemini (LLM)
 - Vercel (recommended for deployment)
-- (Add any other libraries, e.g., TailwindCSS, Prisma, etc.)
+- TailwindCSS
+- Resend
+- Lordicon
 
 ---
 
@@ -38,13 +41,13 @@ Visit the live demo: https://sanatan-ai.vercel.app/ (or your hosting URL)
 Requirements:
 - Node.js 18+ (or the version your project uses)
 - npm or pnpm
-- A Google Gemini API key (or other LLM credentials used by this project)
+- A Google Gemini API key
 
 Steps:
 1. Clone the repo
    ```bash
-   git clone https://github.com/greatsanatanai/greatsanatanai.git
-   cd greatsanatanai
+   git clone https://github.com/thesanatanai/sanatanai.git
+   cd sanatanai
    ```
 2. Install dependencies
    ```bash
@@ -56,33 +59,19 @@ Steps:
    ```bash
    cp .env.local.example .env.local
    ```
-   Edit `.env.local` and add your API key(s). Example variables:
-   ```
-   GEMINI_API_KEY=your-google-gemini-key
-   NEXT_PUBLIC_API_URL=http://localhost:3000
-   ```
-   Replace the names above with the actual env variable names used in the project.
-4. Run the app
+   Edit `.env.local` and add your API key(s) form `.env.example`
+   
+5. Run the app
    ```bash
    npm run dev
    ```
    Open http://localhost:3000
 
-5. Build for production
+6. Build for production
    ```bash
    npm run build
    npm start
    ```
-
----
-
-## Configuration
-- Add any required environment variables to `.env.local`. Typical items:
-  - GEMINI_API_KEY — Google Gemini / LLM API key
-  - NEXT_PUBLIC_BASE_URL — public site URL (for OG images, redirects)
-  - ...other API keys or feature flags used by the app
-
-Check your code for exact variable names and add them to `.env.local.example` if they’re missing.
 
 ---
 
@@ -106,31 +95,22 @@ When opening a PR:
 
 ---
 
-## Translation & Bilingual Support
-To keep the project bilingual:
-- Add translation files under the i18n/locales (or your chosen structure)
-- Follow existing conventions for keys and pluralization
-- Please keep dharma-specific terms accurate and respectful — cite sources where appropriate
-
----
-
 ## Privacy & Responsible Use
 This project interacts with third-party LLMs. Make sure to:
 - Not log or expose sensitive personal data
-- Inform users how their data is used (add a privacy page)
+- Inform users how their data is used (a privacy page)
 - Respect copyright and quote sources when providing scripture or commentary
 
 ---
 
 ## Acknowledgements
-- Logo & design: (credit if applicable)
-- Maintained by: [@thesanatanai](https://github.com/thesanatanai)
+- Maintained for: [@thesanatanai](https://github.com/thesanatanai)
 - Inspired by dharma teachings and community contributors
 
 ---
 
 ## License
-Add a LICENSE file to this repository. If you don't have one yet, consider MIT or another license that fits your goals.
+MIT License - Open Source, Free to use
 
 ---
 
