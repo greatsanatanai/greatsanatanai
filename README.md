@@ -13,7 +13,7 @@ Sanatan AI helps you explore dharma, self-knowledge, and personal growth through
 ---
 
 ## Demo
-Visit the live demo: https://sanatan-ai.vercel.app/ (or your hosting URL)
+Visit the live demo: https://sanatan-ai.vercel.app/
 
 ---
 
